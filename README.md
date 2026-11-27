@@ -79,8 +79,8 @@ If you spot an error, an outdated reference, or something that could be clearer,
 
 ## Connect
 
-- LinkedIn: [Your LinkedIn profile URL]
-- Tower Workshop: [Your website URL]
+- LinkedIn: [linkedin.com/in/rambertotorruella](https://www.linkedin.com/in/rambertotorruella/)
+- Tower Workshop: [towerworkshop.com](https://www.towerworkshop.com/)
 
 ---
 
