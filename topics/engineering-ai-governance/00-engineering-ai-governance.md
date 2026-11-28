@@ -96,7 +96,7 @@ This overview is an original synthesis drawn from practice. These frameworks cov
 
 ## Related visuals
 
-- **01 Enforcing AI Policy** (coming soon): a closer look at the Enforce column.
+- [01 Enforcing AI Policy](01-enforcing-ai-policy.md): a closer look at the Enforce column.
 - **02 Governing the AI Technology Stack** (coming soon): a closer look at the Operate column and policy as code.
 - **03 Testing and Proving AI Security** (coming soon): a closer look at the Validate column and the Evidence band.
 
