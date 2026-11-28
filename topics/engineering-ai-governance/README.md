@@ -16,12 +16,12 @@ This series looks at AI governance as an **engineered capability** with three jo
 |---|-------------|-------|-------------------------|
 | 00 | [Engineering AI Governance: Overview](00-engineering-ai-governance.md) | The whole system | You've written your AI policy. Now what? How do governance, enforcement, operations, testing, and evidence fit together? |
 | 01 | [Enforcing AI Policy](01-enforcing-ai-policy.md) | Enforce | Where do CASBs, API gateways, DLP, and inline guardrails sit, what do they inspect, and which policies do they enforce? |
-| 02 | Governing the AI Technology Stack | Operate | How do prompts, RAG, models, routing, data protection, and policy as code work together inside a governed AI environment? |
+| 02 | [Governing the AI Technology Stack](02-governing-the-ai-technology-stack.md) | Operate | How do prompts, RAG, models, routing, data protection, and policy as code work together inside a governed AI environment? |
 | 03 | Testing and Proving AI Security | Validate and prove | How do adversarial testing, data exfiltration testing, telemetry, and continuous evaluation show that the controls work? |
 
 <!-- When each infographic is published, link its title to the companion note, e.g.
-| 02 | [Governing the AI Technology Stack](02-governing-the-ai-technology-stack.md) | Operate | ... |
-File names: 02-governing-the-ai-technology-stack, 03-testing-and-proving-ai-security
+| 03 | [Testing and Proving AI Security](03-testing-and-proving-ai-security.md) | Validate and prove | ... |
+File name: 03-testing-and-proving-ai-security
 Multi-page carousels add -p1, -p2 to the image and SVG names; the PDF and note keep the base name.
 -->
 
