@@ -8,7 +8,7 @@
 <text xml:space="preserve" x="52.0" y="160.0" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="start">A prompt goes in. An answer comes out.</text>
 <text xml:space="preserve" x="52.0" y="228.0" font-size="58" font-weight="800" fill="#FFC207" text-anchor="start">What happens in between?</text>
 <text xml:space="preserve" x="52.0" y="276.0" font-size="23" font-weight="500" fill="#E5E3DC" text-anchor="start" font-style="italic">Governance lives in the steps you never see.</text>
-<text xml:space="preserve" x="92.0" y="334.0" font-size="15" font-weight="700" fill="#FFBA54" text-anchor="start" letter-spacing="3">PROMPT TO RESPONSE</text>
+<text xml:space="preserve" x="92.0" y="334.0" font-size="15" font-weight="700" fill="#FFBA54" text-anchor="start" letter-spacing="2.5">AI TRANSACTIONS FROM PROMPT TO RESPONSE</text>
 <text xml:space="preserve" x="636.0" y="334.0" font-size="15" font-weight="700" fill="#FFBA54" text-anchor="start" letter-spacing="3">CONTROL PLANE</text>
 <line x1="52" y1="348" x2="596" y2="348" stroke="#24406A" stroke-width="1"/>
 <line x1="636" y1="348" x2="1004" y2="348" stroke="#24406A" stroke-width="1"/>

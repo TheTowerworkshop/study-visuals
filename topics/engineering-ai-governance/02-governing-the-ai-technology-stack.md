@@ -42,7 +42,7 @@ Once a request passes the enforcement checkpoints in 01, it enters the AI applic
 
 ## How to read the visual
 
-**Page 1: prompt to response.** *Governance lives in the steps you never see.* The left column follows a single request through eight steps. Tags show where **POLICY** (the policy engine) and **DATA** (data protection) act.
+**Page 1: AI transactions from prompt to response.** *Governance lives in the steps you never see.* The left column follows a single request through eight steps. Tags show where **POLICY** (the policy engine) and **DATA** (data protection) act.
 
 | Step | What happens | Where governance acts |
 |------|--------------|-----------------------|

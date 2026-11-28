@@ -140,7 +140,7 @@ p.header(KICKER, "A prompt goes in. An answer comes out.", "What happens in betw
 top = 334 if theme == "dark" else 350
 LX0, LX1 = 92, 596          # lifecycle column (left of it: the tool-call loop)
 CX0, CX1 = 636, R           # control-plane column
-p.text(LX0, top, "PROMPT TO RESPONSE", 15, T["label"], 700, ls=3)
+p.text(LX0, top, "AI TRANSACTIONS FROM PROMPT TO RESPONSE", 15, T["label"], 700, ls=2.5)
 p.text(CX0, top, "CONTROL PLANE", 15, T["label"], 700, ls=3)
 for a, b in ((L, LX1), (CX0, CX1)):
     p.add(f'<line x1="{a}" y1="{top+14}" x2="{b}" y2="{top+14}" stroke="{T["line"]}" stroke-width="1"/>')
