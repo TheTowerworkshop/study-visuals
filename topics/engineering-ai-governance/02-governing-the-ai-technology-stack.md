@@ -136,7 +136,7 @@ This infographic is an original synthesis drawn from practice. These resources c
 
 - [00 Engineering AI Governance: Overview](00-engineering-ai-governance.md): where the stack fits in the whole system.
 - [01 Enforcing AI Policy](01-enforcing-ai-policy.md): the checkpoints a request passes before it reaches the stack.
-- **03 Testing and Proving AI Security** (coming soon): how to show these controls actually work.
+- [03 Testing and Proving AI Security](03-testing-and-proving-ai-security.md): how to show these controls actually work.
 
 ## Files
 
