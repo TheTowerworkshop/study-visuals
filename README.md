@@ -12,27 +12,28 @@ Every infographic has a **companion note** (`.md`) that includes a short summary
 
 > Effective AI governance is more than a set of policies, committees, and risk registers. It is an **engineered capability**: it turns organizational intent into technical controls, checks that those controls work, and produces evidence that they are effective.
 
-This four-part series follows that path from intent to proof:
+This four-part series follows that path from intent to proof. All four parts are published:
 
 | # | Infographic | The question it answers | Status |
 |---|-------------|-------------------------|--------|
 | 00 | [**Engineering AI Governance: Overview**](topics/engineering-ai-governance/00-engineering-ai-governance.md) | You've written your AI policy. Now what? How do governance, enforcement, operations, testing, and evidence fit together? | Nov 2026 |
 | 01 | [**Enforcing AI Policy**](topics/engineering-ai-governance/01-enforcing-ai-policy.md) | Your policy says no. Which control enforces it? Where do CASBs, API gateways, and inline guardrails sit, and what does each one stop? | Nov 2026 |
 | 02 | [**Governing the AI Technology Stack**](topics/engineering-ai-governance/02-governing-the-ai-technology-stack.md) | A prompt goes in, an answer comes out: what happens in between? How do prompts, RAG, model routing, and policy as code work together under governance? | Nov 2026 |
-| 03 | **Testing and Proving AI Security** | How do adversarial testing, data exfiltration testing, telemetry, and continuous evaluation show that the controls work? | Planned |
+| 03 | [**Testing and Proving AI Security**](topics/engineering-ai-governance/03-testing-and-proving-ai-security.md) | Your controls are in place: would they survive an attacker? How do adversarial testing and telemetry produce evidence, and what does that evidence prove? | Nov 2026 |
 
 <p>
   <a href="topics/engineering-ai-governance/00-engineering-ai-governance.md"><img src="thumbnails/engineering-ai-governance-00.png" width="220" alt="Engineering AI Governance: Overview"></a>
   <a href="topics/engineering-ai-governance/01-enforcing-ai-policy.md"><img src="thumbnails/engineering-ai-governance-01.png" width="220" alt="Enforcing AI Policy"></a>
   <a href="topics/engineering-ai-governance/02-governing-the-ai-technology-stack.md"><img src="thumbnails/engineering-ai-governance-02.png" width="220" alt="Governing the AI Technology Stack"></a>
+  <a href="topics/engineering-ai-governance/03-testing-and-proving-ai-security.md"><img src="thumbnails/engineering-ai-governance-03.png" width="220" alt="Testing and Proving AI Security"></a>
 </p>
 
 📁 [`topics/engineering-ai-governance/`](topics/engineering-ai-governance/)
 
 <!--
 When an infographic is published, replace its row with a linked title and set Status to the publish date, e.g.:
-| 03 | [**Testing and Proving AI Security**](topics/engineering-ai-governance/03-testing-and-proving-ai-security.md) | ... | Dec 2026 |
-and add its thumbnail (thumbnails/engineering-ai-governance-03.png) to the gallery above.
+| NN | [**Title**](topics/<topic>/NN-title.md) | ... | Mon YYYY |
+and add its thumbnail (thumbnails/<topic>-NN.png) to the gallery above.
 -->
 
 ---

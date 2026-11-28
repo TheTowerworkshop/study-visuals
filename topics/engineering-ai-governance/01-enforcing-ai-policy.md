@@ -108,7 +108,7 @@ This infographic is an original synthesis drawn from practice. These resources c
 
 - [00 Engineering AI Governance: Overview](00-engineering-ai-governance.md): where enforcement fits in the whole system.
 - [02 Governing the AI Technology Stack](02-governing-the-ai-technology-stack.md): what happens after a request passes the checkpoints.
-- **03 Testing and Proving AI Security** (coming soon): how to show these checkpoints actually work.
+- [03 Testing and Proving AI Security](03-testing-and-proving-ai-security.md): how to show these checkpoints actually work.
 
 ## Files
 
