@@ -17,20 +17,21 @@ This four-part series follows that path from intent to proof:
 | # | Infographic | The question it answers | Status |
 |---|-------------|-------------------------|--------|
 | 00 | [**Engineering AI Governance: Overview**](topics/engineering-ai-governance/00-engineering-ai-governance.md) | You've written your AI policy. Now what? How do governance, enforcement, operations, testing, and evidence fit together? | Nov 2026 |
-| 01 | **Enforcing AI Policy** | Where do CASBs, API gateways, DLP, and inline guardrails sit, what do they inspect, and which policies do they enforce? | Planned |
+| 01 | [**Enforcing AI Policy**](topics/engineering-ai-governance/01-enforcing-ai-policy.md) | Your policy says no. Which control enforces it? Where do CASBs, API gateways, and inline guardrails sit, and what does each one stop? | Nov 2026 |
 | 02 | **Governing the AI Technology Stack** | How do prompts, RAG, models, routing, data protection, and policy as code work together inside a governed AI environment? | Planned |
 | 03 | **Testing and Proving AI Security** | How do adversarial testing, data exfiltration testing, telemetry, and continuous evaluation show that the controls work? | Planned |
 
 <p>
   <a href="topics/engineering-ai-governance/00-engineering-ai-governance.md"><img src="thumbnails/engineering-ai-governance-00.png" width="220" alt="Engineering AI Governance: Overview"></a>
+  <a href="topics/engineering-ai-governance/01-enforcing-ai-policy.md"><img src="thumbnails/engineering-ai-governance-01.png" width="220" alt="Enforcing AI Policy"></a>
 </p>
 
 📁 [`topics/engineering-ai-governance/`](topics/engineering-ai-governance/)
 
 <!--
 When an infographic is published, replace its row with a linked title and set Status to the publish date, e.g.:
-| 01 | [**Enforcing AI Policy**](topics/engineering-ai-governance/01-enforcing-ai-policy.md) | ... | Dec 2026 |
-and add its thumbnail (thumbnails/engineering-ai-governance-01.png) to the gallery above.
+| 02 | [**Governing the AI Technology Stack**](topics/engineering-ai-governance/02-governing-the-ai-technology-stack.md) | ... | Dec 2026 |
+and add its thumbnail (thumbnails/engineering-ai-governance-02.png) to the gallery above.
 -->
 
 ---
