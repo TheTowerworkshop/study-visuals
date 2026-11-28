@@ -9,8 +9,8 @@
 <text xml:space="preserve" x="1004.0" y="90.0" font-size="16" font-weight="600" fill="#AEB8C6" text-anchor="end" letter-spacing="2">1 / 3</text>
 <text xml:space="preserve" x="52.0" y="160.0" font-size="44" font-weight="700" fill="#FFFFFF" text-anchor="start">A prompt goes in. An answer comes out.</text>
 <text xml:space="preserve" x="52.0" y="228.0" font-size="58" font-weight="800" fill="#FFC207" text-anchor="start">What happens in between?</text>
-<text xml:space="preserve" x="52.0" y="276.0" font-size="23" font-weight="500" fill="#E5E3DC" text-anchor="start" font-style="italic">Eight steps, and where policy acts on each.</text>
-<text xml:space="preserve" x="92.0" y="350.0" font-size="15" font-weight="700" fill="#B67E28" text-anchor="start" letter-spacing="3">ONE AI TRANSACTION</text>
+<text xml:space="preserve" x="52.0" y="276.0" font-size="23" font-weight="500" fill="#E5E3DC" text-anchor="start" font-style="italic">Governance lives in the steps you never see.</text>
+<text xml:space="preserve" x="92.0" y="350.0" font-size="15" font-weight="700" fill="#B67E28" text-anchor="start" letter-spacing="3">PROMPT TO RESPONSE</text>
 <text xml:space="preserve" x="636.0" y="350.0" font-size="15" font-weight="700" fill="#B67E28" text-anchor="start" letter-spacing="3">CONTROL PLANE</text>
 <line x1="52" y1="364" x2="596" y2="364" stroke="#CFCFCF" stroke-width="1"/>
 <line x1="636" y1="364" x2="1004" y2="364" stroke="#CFCFCF" stroke-width="1"/>
@@ -90,42 +90,36 @@
 <path d="M92 1065.0 H66 V513.0 H89" stroke="#3870C2" stroke-width="2.5" fill="none" stroke-linejoin="round" stroke-dasharray="6 4" marker-end="url(#aPol)"/>
 <rect x="55" y="617.9" width="22" height="342.3" fill="#FFFFFF"/>
 <text xml:space="preserve" x="66.0" y="789.0" font-size="11.5" font-weight="700" fill="#3870C2" text-anchor="middle" letter-spacing="1.5" transform="rotate(-90 66 789.0)" dominant-baseline="central">TOOL CALLS RETURN FOR AUTHORIZATION</text>
-<rect x="636.0" y="382.0" width="368.0" height="352.0" rx="6" fill="#F4F3EF" stroke="#CFCFCF" stroke-width="1.5"/>
+<rect x="636.0" y="382.0" width="368.0" height="352.0" rx="6" fill="#F4F3EF" stroke="#3870C2" stroke-width="1.5"/>
 <rect x="636" y="382" width="368" height="5" fill="#3870C2"/>
 <rect x="654.0" y="402" width="68.8" height="24" rx="12" fill="none" stroke="#3870C2" stroke-width="1.5"/>
 <text xml:space="preserve" x="688.4" y="418.5" font-size="12" font-weight="700" fill="#3870C2" text-anchor="middle" letter-spacing="0.5">POLICY</text>
 <text xml:space="preserve" x="654.0" y="454.0" font-size="19" font-weight="700" fill="#051937" text-anchor="start">Policy management</text>
-<rect x="654.0" y="474.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="474" width="4" height="62" fill="#3870C2"/>
-<text xml:space="preserve" x="672.0" y="500.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Git</text>
-<text xml:space="preserve" x="672.0" y="523.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Versioned policies</text>
+<rect x="654.0" y="474.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#3870C2" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="500.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Git</text>
+<text xml:space="preserve" x="670.0" y="523.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Versioned policies</text>
 <path d="M820.0 537 V560" stroke="#3870C2" stroke-width="2" fill="none" stroke-linejoin="round" marker-end="url(#aPol)"/>
-<rect x="654.0" y="562.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="562" width="4" height="62" fill="#3870C2"/>
-<text xml:space="preserve" x="672.0" y="588.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">CI/CD pipeline</text>
-<text xml:space="preserve" x="672.0" y="611.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Review, test, deploy</text>
+<rect x="654.0" y="562.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#3870C2" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="588.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">CI/CD pipeline</text>
+<text xml:space="preserve" x="670.0" y="611.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Review, test, deploy</text>
 <path d="M820.0 625 V648" stroke="#3870C2" stroke-width="2" fill="none" stroke-linejoin="round" marker-end="url(#aPol)"/>
-<rect x="654.0" y="650.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="650" width="4" height="62" fill="#3870C2"/>
-<text xml:space="preserve" x="672.0" y="676.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Policy engine</text>
-<text xml:space="preserve" x="672.0" y="699.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Allow or deny, with conditions</text>
-<rect x="636.0" y="756.0" width="368.0" height="348.0" rx="6" fill="#F4F3EF" stroke="#CFCFCF" stroke-width="1.5"/>
+<rect x="654.0" y="650.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#3870C2" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="676.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Policy engine</text>
+<text xml:space="preserve" x="670.0" y="699.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Allow or deny, with conditions</text>
+<rect x="636.0" y="756.0" width="368.0" height="348.0" rx="6" fill="#F4F3EF" stroke="#B67E28" stroke-width="1.5"/>
 <rect x="636" y="756" width="368" height="5" fill="#B67E28"/>
 <rect x="654.0" y="776" width="56.7" height="24" rx="12" fill="none" stroke="#B67E28" stroke-width="1.5"/>
 <text xml:space="preserve" x="682.4" y="792.5" font-size="12" font-weight="700" fill="#B67E28" text-anchor="middle" letter-spacing="0.5">DATA</text>
 <text xml:space="preserve" x="654.0" y="828.0" font-size="19" font-weight="700" fill="#051937" text-anchor="start">Data protection</text>
-<rect x="654.0" y="848.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="848" width="4" height="62" fill="#B67E28"/>
-<text xml:space="preserve" x="672.0" y="874.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Classification</text>
-<text xml:space="preserve" x="672.0" y="897.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Labels data by sensitivity</text>
-<rect x="654.0" y="936.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="936.0" width="4" height="62" fill="#B67E28"/>
-<text xml:space="preserve" x="672.0" y="962.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">DLP rules</text>
-<text xml:space="preserve" x="672.0" y="985.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Content and destination rules</text>
-<rect x="654.0" y="1024.0" width="332.0" height="62.0" rx="6" fill="#FFFFFF" stroke="#CFCFCF" stroke-width="1.5"/>
-<rect x="654" y="1024.0" width="4" height="62" fill="#B67E28"/>
-<text xml:space="preserve" x="672.0" y="1050.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">RAG entitlements</text>
-<text xml:space="preserve" x="672.0" y="1073.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Who may retrieve what</text>
+<rect x="654.0" y="848.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#B67E28" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="874.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">Classification</text>
+<text xml:space="preserve" x="670.0" y="897.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Labels data by sensitivity</text>
+<rect x="654.0" y="936.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#B67E28" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="962.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">DLP rules</text>
+<text xml:space="preserve" x="670.0" y="985.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Content and destination rules</text>
+<rect x="654.0" y="1024.0" width="332.0" height="62.0" rx="4" fill="#FFFFFF" stroke="#B67E28" stroke-width="1.2"/>
+<text xml:space="preserve" x="670.0" y="1050.0" font-size="17" font-weight="700" fill="#051937" text-anchor="start">RAG entitlements</text>
+<text xml:space="preserve" x="670.0" y="1073.0" font-size="14.5" font-weight="400" fill="#303636" text-anchor="start">Who may retrieve what</text>
 <rect x="52.0" y="1134.0" width="952.0" height="60.0" rx="0" fill="#F4F3EF" stroke="#CFCFCF" stroke-width="1.5"/>
 <rect x="52.0" y="1134.0" width="6" height="60.0" fill="#B67E28"/>
 <text xml:space="preserve" x="80.0" y="1171.0" font-size="14" font-weight="700" fill="#B67E28" text-anchor="start" letter-spacing="2.5">EVIDENCE</text>

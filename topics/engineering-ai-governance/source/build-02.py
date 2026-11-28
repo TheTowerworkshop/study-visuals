@@ -135,12 +135,12 @@ KICKER = "GOVERNING THE AI TECHNOLOGY STACK"
 # =========================== PAGE 1: the transaction ===========================
 p = Page(1)
 p.header(KICKER, "A prompt goes in. An answer comes out.", "What happens in between?",
-         "Eight steps, and where policy acts on each.", band_h=302, l1_size=44)
+         "Governance lives in the steps you never see.", band_h=302, l1_size=44)
 
 top = 334 if theme == "dark" else 350
 LX0, LX1 = 92, 596          # lifecycle column (left of it: the tool-call loop)
 CX0, CX1 = 636, R           # control-plane column
-p.text(LX0, top, "ONE AI TRANSACTION", 15, T["label"], 700, ls=3)
+p.text(LX0, top, "PROMPT TO RESPONSE", 15, T["label"], 700, ls=3)
 p.text(CX0, top, "CONTROL PLANE", 15, T["label"], 700, ls=3)
 for a, b in ((L, LX1), (CX0, CX1)):
     p.add(f'<line x1="{a}" y1="{top+14}" x2="{b}" y2="{top+14}" stroke="{T["line"]}" stroke-width="1"/>')
@@ -189,15 +189,14 @@ steps_bottom = sy0 + len(steps) * (sh + sg) - sg
 
 # Control plane: policy management and data protection, the two cross-cutting capabilities
 def cp_group(y, h, tag, col, title):
-    p.box(CX0, y, CX1 - CX0, h, fill=T["strip"])
+    p.box(CX0, y, CX1 - CX0, h, fill=T["strip"], stroke=col)
     p.add(f'<rect x="{CX0}" y="{y}" width="{CX1-CX0}" height="5" fill="{col}"/>')
     p.pill(CX0 + 18, y + 20, tag, col, 12)
     p.text(CX0 + 18, y + 72, title, 19, T["head"], 700)
 def cp_item(y, title, sub, col):
-    p.box(CX0 + 18, y, CX1 - CX0 - 36, 62, fill=T["panel"])
-    p.add(f'<rect x="{CX0+18}" y="{y}" width="4" height="62" fill="{col}"/>')
-    p.text(CX0 + 36, y + 26, title, 17, T["head"], 700)
-    p.text(CX0 + 36, y + 49, sub, 14.5, T["body"], 400)
+    p.box(CX0 + 18, y, CX1 - CX0 - 36, 62, fill=T["panel"], stroke=col, rx=4, sw=1.2)
+    p.text(CX0 + 34, y + 26, title, 17, T["head"], 700)
+    p.text(CX0 + 34, y + 49, sub, 14.5, T["body"], 400)
 
 g1y = sy0
 g1h = 96 + 3 * 62 + 2 * 26 + 18
