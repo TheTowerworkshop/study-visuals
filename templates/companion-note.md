@@ -1,6 +1,6 @@
 ---
 title: "[Infographic title]"
-topic: "[Topic folder name, e.g. ai-governance]"
+topic: "[Topic folder name, e.g. engineering-ai-governance]"
 series: "[Series name, e.g. Engineering AI Governance: From Policy to Proof]"
 part: "[N of M, or leave blank for a standalone visual]"
 created: YYYY-MM-DD
@@ -14,7 +14,7 @@ license: CC-BY-4.0
 <!--
 HOW TO USE THIS TEMPLATE
 1. Copy this file into topics/<topic>/ and give it the same base name as the image,
-   e.g. 01-intent-to-requirements.md next to 01-intent-to-requirements.png
+   e.g. 01-enforcing-ai-policy.md next to 01-enforcing-ai-policy.png
 2. Replace every [bracketed] placeholder and delete sections you don't need.
 3. Delete this comment block when you're done.
 -->

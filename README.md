@@ -16,22 +16,21 @@ This four-part series follows that path from intent to proof:
 
 | # | Infographic | The question it answers | Status |
 |---|-------------|-------------------------|--------|
-| 1 | **Intent → Requirements** | How do principles, risk appetite, and regulatory obligations become specific requirements that can be tested? | Planned |
-| 2 | **Requirements → Controls** | Which guardrails, both technical and procedural, put those requirements into practice across the AI lifecycle? | Planned |
-| 3 | **Controls → Validation** | How do we show the controls work, through testing, evaluation, red-teaming, and monitoring? | Planned |
-| 4 | **Validation → Proof** | What evidence shows that governance is working, and who needs to see it? | Planned |
+| 00 | [**Engineering AI Governance: Overview**](topics/engineering-ai-governance/00-engineering-ai-governance.md) | You've written your AI policy. Now what? How do governance, enforcement, operations, testing, and evidence fit together? | Nov 2026 |
+| 01 | **Enforcing AI Policy** | Where do CASBs, API gateways, DLP, and inline guardrails sit, what do they inspect, and which policies do they enforce? | Planned |
+| 02 | **Governing the AI Technology Stack** | How do prompts, RAG, models, routing, data protection, and policy as code work together inside a governed AI environment? | Planned |
+| 03 | **Testing and Proving AI Security** | How do adversarial testing, data exfiltration testing, telemetry, and continuous evaluation show that the controls work? | Planned |
 
-📁 [`topics/ai-governance/`](topics/ai-governance/)
+<p>
+  <a href="topics/engineering-ai-governance/00-engineering-ai-governance.md"><img src="thumbnails/engineering-ai-governance-00.png" width="220" alt="Engineering AI Governance: Overview"></a>
+</p>
+
+📁 [`topics/engineering-ai-governance/`](topics/engineering-ai-governance/)
 
 <!--
 When an infographic is published, replace its row with a linked title and set Status to the publish date, e.g.:
-| 1 | [**Intent → Requirements**](topics/ai-governance/01-intent-to-requirements.md) | ... | Nov 2026 |
-
-Optional thumbnail gallery (add once images exist):
-<p>
-  <a href="topics/ai-governance/01-intent-to-requirements.md"><img src="thumbnails/ai-governance-01.png" width="220" alt="Intent to Requirements"></a>
-  <a href="topics/ai-governance/02-requirements-to-controls.md"><img src="thumbnails/ai-governance-02.png" width="220" alt="Requirements to Controls"></a>
-</p>
+| 01 | [**Enforcing AI Policy**](topics/engineering-ai-governance/01-enforcing-ai-policy.md) | ... | Dec 2026 |
+and add its thumbnail (thumbnails/engineering-ai-governance-01.png) to the gallery above.
 -->
 
 ---
@@ -45,12 +44,17 @@ study-visuals/
 ├── templates/
 │   └── companion-note.md      # copy this for each new infographic
 ├── thumbnails/                # small (~600px wide) previews for the index
+│   └── engineering-ai-governance-00.png
 └── topics/
-    └── ai-governance/
+    └── engineering-ai-governance/
         ├── README.md          # topic overview
-        ├── 01-intent-to-requirements.png
-        ├── 01-intent-to-requirements.pdf
-        └── 01-intent-to-requirements.md   # companion note
+        ├── 00-engineering-ai-governance.png      # view on GitHub
+        ├── 00-engineering-ai-governance@2x.png   # LinkedIn / presentations
+        ├── 00-engineering-ai-governance.svg      # source graphic
+        ├── 00-engineering-ai-governance-light.png / .svg
+        ├── 00-engineering-ai-governance.pdf      # print
+        ├── 00-engineering-ai-governance.md       # companion note
+        └── source/            # build script and logos
 ```
 
 **File naming:** `NN-short-kebab-title` with the same base name for the image, the PDF, and the companion note.
